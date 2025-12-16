@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID клиента:"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/et_order_client_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ID существующего клиента"
+        android:maxLines="1"
+        android:inputType="number"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата заказа:"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/et_order_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Например: 15.12.2025"
+        android:maxLines="1"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Используйте формат ДД.ММ.ГГГГ"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="5dp" />
+
+</LinearLayout>

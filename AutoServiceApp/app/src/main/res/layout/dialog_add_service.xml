@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название услуги:"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/et_service_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Например: Замена масла"
+        android:maxLines="1"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Описание:"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/et_service_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Например: Полная замена моторного масла и фильтра"
+        android:maxLines="2"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цена ($):"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/et_service_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Например: 50.00"
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Длительность (минут):"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:id="@+id/et_service_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Например: 60"
+        android:maxLines="1"
+        android:inputType="number"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>
